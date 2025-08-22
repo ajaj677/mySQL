@@ -23,4 +23,4 @@ INSERT INTO Payment (customer_id, customer, mode, city) VALUES
 
 SELECT mode, COUNT(customer)
 FROM Payment
-GROUP BY mode;
+GROUP BY model DESC;
